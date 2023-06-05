@@ -1,0 +1,122 @@
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color:rgba(19,19,19,255) ;
+    display: flex;
+
+}
+.footer-lside{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+	
+}
+.news{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footer-rside{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 1.1rem
+   
+}
+
+	input{
+        position: relative;
+        display: inline-block;
+        font-size: 20px;
+        box-sizing: border-box;
+        transition: 0.5s;
+    }
+
+    input[type="email"]{
+          width: 70%;
+          height: 40px;
+          border: none;
+          outline: none;
+          padding: 0 25px;
+          border-radius: 25px 0 0 25px;
+    }
+    input[type="submit"]{
+        position: relative;
+        left: -5px;
+        border-radius:  0 25px 25px 0;
+        width: 20%;
+        height: 40px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: black;
+        color: whitesmoke;
+    }
+    input[type="submit"]:hover{
+        background-color: #ff5722;
+    }
+
+    h4{
+        font-size: 1.8rem;
+    }
+.foot{
+    list-style: none;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1000px){
+    footer{
+        flex-direction: column;
+      height: 60vh;
+    }
+    .footer-rside{
+        width: 100%;
+        height: 50%;
+        align-items: center;
+    }
+    .icons{
+        justify-content: center;
+    }
+    input{
+        font-size: 14px;
+    }
+    .footer-lside{
+        width: 100%;
+        height: 50%;
+        flex-direction: column;
+        gap: 30px;
+    }
+    input[type="email"]{
+        width: 80%;
+       
+    }
+    input[type="submit"]{
+        width: 20%;
+        
+        
+    }
+    .foot{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        gap: 15px;
+    }
+    
+}

@@ -1,0 +1,113 @@
+.menu-container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(19,19,19,255) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #8a2900;
+}
+.choose{
+   width: 100%;
+   height: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+    
+}
+
+select{
+    width: 280px;
+    height: 50px;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    background-color: #8a2900;
+    border: 1px solid white;
+    color: white;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    cursor: pointer;
+    background-image: url('../img/arrow.png');
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 240px;
+    outline: none;
+    
+}
+.white{
+    color: whitesmoke;
+}
+.four{
+    width: 50%;
+}
+select::-ms-expand{
+    display: none;
+}
+select:hover{
+    border:3px solid white;
+    
+}
+
+option{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-bottom: 3px solid white;
+}
+option:hover{
+    background-color: #8a2910;;
+}
+.products{
+    list-style: none;
+}
+.li-prod{
+    width: 280px;
+    height: 50px;
+    
+    border-bottom: 2px solid white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.cena{
+    font-size: 1.2rem;
+}
+.spanbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media only screen and (min-width: 900px){
+    .choose{
+        width: 50%;
+        height: 50vh;
+        flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+    }
+    .lista{
+        width: 50%;
+        height: 100%;
+    }
+    .menu-container{
+        flex-direction: row;
+    }
+    .li-prod{
+        width: 100%;
+    }
+    .products{
+        width: 70%;
+    }
+    .spanbox{
+        width: 70%;
+    }
+    .ours{
+        font-size: 5rem;
+    }
+   
+}

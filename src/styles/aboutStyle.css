@@ -49,10 +49,10 @@ h2{
 
 .textbox{
  
-    font-size: 1.4em;
+    font-size: 2em;
     text-align: center;
     letter-spacing: 2px;
-    line-height: 30px;
+    line-height: 140%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,11 +81,12 @@ button{
     color: white;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
 .aboutus-container{
     display: flex;
     flex-direction: row;
 }
+
 .about-box{
   
     width: 50%;
@@ -116,12 +117,17 @@ button{
 
 @media only screen and (max-width: 600px){
     .textbox{
-        font-size: 0.8em;
+        font-size: 1.2em;
+        
     }
+  
 }
 
 @media only screen and (max-width: 1200px){
    .aboutimg{
     width: 400px;
    }
+}
+@media only screen and (min-width: 600px){
+  
 }

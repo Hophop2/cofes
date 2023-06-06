@@ -11,8 +11,9 @@ const Header = () => {
     <NavBar />
 
     <AnimatedDiv>
-     
+      <div className='h-box'>
         <h1 >DISCOVER THE TASTE OF COFFES WITH PRIMO</h1>
+        </div>
       
         </AnimatedDiv>
     </div>

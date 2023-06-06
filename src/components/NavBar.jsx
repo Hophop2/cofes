@@ -19,7 +19,7 @@ const NavBar = () => {
       
       <nav className="menu-nav" >
         <div className='logo-mobile'>
-        <Link  to='pr' spy={true} smooth={true} offset={-100} duration={500}><img src={logo} alt="Logo" onClick={handleToggleMenu} className='mobile'/></Link>
+        <Link className='mobi' to='pr' spy={true} smooth={true} offset={-100} duration={500}><img src={logo} alt="Logo" onClick={handleToggleMenu} className='mobile'/></Link>
         </div>
       
         <div className='toggle'><FontAwesomeIcon onClick={handleToggleMenu}  icon={faXmark} /></div>
@@ -50,7 +50,7 @@ const NavBar = () => {
             </ul>
             </div>
             <div className='logob'>
-            <Link to='pr' spy={true} smooth={true} offset={-100} duration={500}>
+            <Link className='kk' to='pr' spy={true} smooth={true} offset={-100} duration={500}>
         <img src={logo} alt="Logo" className='logoimg'/>
         </Link>
         </div>

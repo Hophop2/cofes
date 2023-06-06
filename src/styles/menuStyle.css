@@ -42,7 +42,7 @@ select{
     color: whitesmoke;
 }
 .four{
-    width: 80%;
+    display: none;
     
 }
 select::-ms-expand{
@@ -112,6 +112,7 @@ option:hover{
     }
     .four{
         width: 60%;
+        display: block;
         
     }
    
